@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
       <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
         <img
-          src="/public/Hero_image.jpg"
+          src="/Hero_image.jpg"
           alt="Hero"
           className="w-3/4 md:w-full rounded-xl shadow-lg"
         />
