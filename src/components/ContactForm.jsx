@@ -41,7 +41,7 @@ export default function ContactForm() {
       console.log("Response from API:", data); // ✅ JSON response console me dikhega
 
       // ✅ Handle both 200 and 201 as success
-      if (res.status === 200 || res.status === 200) {
+      if (res.status === 200 || res.status === 201) {
         setToast("Form Submitted ✅");
         setForm({ name: "", email: "", phone: "", message: "" });
       } else {
